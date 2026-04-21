@@ -1,0 +1,10 @@
+.env
+.env.example
+.gitignore
+.git
+.testregistry
+Dockerfile
+README.md
+buildprod.sh
+buildtest.sh
+compose.yaml
