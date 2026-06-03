@@ -1,0 +1,9 @@
+server {
+    listen 3200;
+    access_log off;
+    client_body_buffer_size 2048M;
+    location / {
+      root   /data/;
+      index  index.html index.htm;
+    }
+}
